@@ -4,7 +4,7 @@ using Sample.IdentityProvider.Options;
 
 namespace Sample.IdentityProvider;
 
-public static class Config
+internal static class Config
 {
     public static IEnumerable<IdentityResource> IdentityResources =>
         [ 
